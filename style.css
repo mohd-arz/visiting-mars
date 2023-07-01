@@ -121,7 +121,7 @@ input::placeholder{
 label{
     position: absolute;
     top:15px;
-    left:18px;
+    left:20px;
     font-size: .6em;
     display: none;
     font-weight:normal;
