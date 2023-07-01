@@ -192,6 +192,10 @@ body{
         padding: .5rem 0;
 
     }
+    label{
+        left:25px:
+    }
+    
     .form-container >h1{
         margin: 1rem;
     }
