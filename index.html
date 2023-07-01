@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting Mars</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading">Wanna Explore Mars?</h1>
+        <p>Welcome Human!<br> If I'm right you are from Earth, If you want to access everything from this Planet <br>You should be Sign-in in our website.
+        <br>Your <strong>username</strong>  is the one gave to you when you are departed from planet Earth. <br>
+        Your <strong>password</strong> is something that you should be remember while you are in this Planet
+     </p>
+    </div>
+    
+    
+    <div class="form-container">
+        <h1>Sign Up</h1>
+        <form action="" method="post" class="form">
+            <div class="form-row">
+                <input type="text" id="username" name="user_name" minlength="4" maxlength="8" required placeholder="username *">
+                <label for="username">Username</label>
+    
+            </div>
+            
+            <div class="form-row">
+                <input type="email" id="email" name="user_email" required placeholder="email *">
+                <label for="email">Email</label>
+    
+            </div>
+            <div class="form-row">
+                <input type="password" id="password" name="user_password" required placeholder="password *">
+                <label for="password">Password</label>
+                    
+    
+            </div>
+            <div class="form-row">
+                <input type="password" id="confirm-password" name="confirm-password" required placeholder="confirm password *">
+                <label for="confirm-password">Confirm Password</label>
+                <p class="status"></p>
+
+                
+            </div>
+
+            <div class="form-btn">
+                <button type="submit">Sign in</button>
+            </div>
+
+            <p class="login">Already have been here ? <a href="">Login-in</a></p>
+        </form>
+        
+    </div>
+   
+</body>
+</html>
